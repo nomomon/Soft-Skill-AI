@@ -1,0 +1,29 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    width:60vw;
+    margin:auto;
+    margin-bottom:10vh;
+}
+
+hr{
+    border:none;
+    height: 1px;
+    background-color: #d3dbdf;
+    width:100%;
+}
+
+.logo{
+    margin-top:30px;
+    max-width: 256px;
+    filter:brightness(0.98);
+}
+.title{
+    font-family: Spartan;
+    font-size: 1.2rem;
+}
