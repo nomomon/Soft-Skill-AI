@@ -17,3 +17,6 @@ _**Currently, Telegram bot is turned off, however you can try the examples in Op
     Link to the pitch video on YouTube
   </a>
 <p>
+
+## License
+All of the codebase is **MIT licensed** unless otherwise specified.
