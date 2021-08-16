@@ -4,17 +4,7 @@ Telegram bot that simulates work situations to help HR select people for support
 
 Try out the bot in Telegram [@ssai_bot](https://t.me/ssai_bot)!
 
-_**Currently, Telegram bot is turned off, however you can try the examples in OpenAI's playground**_
-
-## How to turn on the bot
-1. Install the requirements.
-2. Enter your relevant api keys into `config.py`.
-3. Turn on `app.py`.
-
-## OpenAI Playground Examples
-- :rage: [Soft Skill AI | Angry Customer](https://beta.openai.com/playground/p/31HUmVTFluAK9dxwADjvJNRG?model=davinci)
-- :broccoli: [Soft Skill AI | Shop Keeper](https://beta.openai.com/playground/p/bcZCOaUUXe7o64pCs0uPBi6X?model=davinci)
-- :question: [Soft Skill AI | Can't Understand](https://beta.openai.com/playground/p/hE04QHIviwoLt7v6XptKFscJ?model=davinci)
+_**Currently, Telegram bot is turned off, however you can try the [examples](#openai-playground-examples) in OpenAI's playground**_
 
 ## Pitch Video
 
@@ -25,6 +15,16 @@ _**Currently, Telegram bot is turned off, however you can try the examples in Op
     Link to the pitch video on YouTube
   </a>
 <p>
+
+## OpenAI Playground Examples
+- :rage: [Soft Skill AI | Angry Customer](https://beta.openai.com/playground/p/31HUmVTFluAK9dxwADjvJNRG?model=davinci)
+- :broccoli: [Soft Skill AI | Shop Keeper](https://beta.openai.com/playground/p/bcZCOaUUXe7o64pCs0uPBi6X?model=davinci)
+- :question: [Soft Skill AI | Can't Understand](https://beta.openai.com/playground/p/hE04QHIviwoLt7v6XptKFscJ?model=davinci)
+
+## How to turn on the bot
+1. Install the requirements.
+2. Enter your relevant api keys into `config.py`.
+3. Turn on `app.py`.
 
 ## License
 All of the codebase is **MIT licensed** unless otherwise specified.
