@@ -28,3 +28,8 @@ _**Currently, Telegram bot is turned off, however you can try the [examples](#op
 
 ## License
 All of the codebase is **MIT licensed** unless otherwise specified.
+ 
+## Authors
+- Mansur Nurmukhambetov
+- Amir Nurmukhambetov
+- Zhangir Nurmukhambetov
