@@ -2,7 +2,7 @@
 
 Telegram bot that simulates work situations to help HR evaluate candidates for support roles. Generates scenarios using GPT-3.
 
-![banner](https://nomomon.github.io/projects/soft-skills-ai/assets/softskillai-preview.jpeg)
+![banner](./assets/banner.jpeg)
 
 ## What's this about
 
