@@ -1,35 +1,35 @@
-![Soft Skill AI banner](https://nomomon.github.io/projects/soft-skills-ai/assets/softskillai-preview.jpeg)
 # Soft Skill AI
-Telegram bot that simulates work situations to help HR select people for support. It generates text scenarios using GPT-3 from OpenAI.
 
-Try out the bot in Telegram [@ssai_bot](https://t.me/ssai_bot)!
+Telegram bot that simulates work situations to help HR evaluate candidates for support roles. Generates scenarios using GPT-3.
 
-_**Currently, Telegram bot is turned off, however you can try the [examples](#openai-playground-examples) in OpenAI's playground**_
+![banner](https://nomomon.github.io/projects/soft-skills-ai/assets/softskillai-preview.jpeg)
 
-## Pitch Video
+## What's this about
 
-<p align="center">
-  <a href="https://www.youtube.com/embed/RhdQjmgWrCo">
-    <img width="450" src="https://i.ytimg.com/vi/RhdQjmgWrCo/maxresdefault.jpg"/>
-    <br>
-    Link to the pitch video on YouTube
-  </a>
-<p>
+The bot throws realistic work scenarios at users — angry customers, confused shoppers, tricky support situations — and evaluates how they respond. Built with Flask, GPT-3, and the Telegram Bot API. We used it as a tool for HR teams to screen candidates in a more interactive way.
 
-## OpenAI Playground Examples
-- :rage: [Soft Skill AI | Angry Customer](https://beta.openai.com/playground/p/31HUmVTFluAK9dxwADjvJNRG?model=davinci)
-- :broccoli: [Soft Skill AI | Shop Keeper](https://beta.openai.com/playground/p/bcZCOaUUXe7o64pCs0uPBi6X?model=davinci)
-- :question: [Soft Skill AI | Can't Understand](https://beta.openai.com/playground/p/hE04QHIviwoLt7v6XptKFscJ?model=davinci)
+Built by the Nurmukhambetov brothers (Mansur, Amir, Zhangir).
 
-## How to turn on the bot
-1. Install the requirements.
-2. Enter your relevant api keys into `config.py`.
-3. Turn on `app.py`.
+[Pitch video on YouTube](https://www.youtube.com/watch?v=RhdQjmgWrCo)
 
-## License
-All of the codebase is **MIT licensed** unless otherwise specified.
- 
-## Authors
-- Mansur Nurmukhambetov
-- Amir Nurmukhambetov
-- Zhangir Nurmukhambetov
+## How to launch
+
+```bash
+pip install -r requirements.txt
+```
+
+Edit `config.py` with your OpenAI API key and Telegram bot token, then:
+
+```bash
+python app.py
+```
+
+For deployment, there's a `Procfile` for Heroku.
+
+## Try it
+
+The bot [@ssai_bot](https://t.me/ssai_bot) is currently offline, but you can try the prompts in OpenAI's playground:
+
+- [Angry Customer scenario](https://beta.openai.com/playground/p/31HUmVTFluAK9dxwADjvJNRG?model=davinci)
+- [Shop Keeper scenario](https://beta.openai.com/playground/p/bcZCOaUUXe7o64pCs0uPBi6X?model=davinci)
+- [Can't Understand scenario](https://beta.openai.com/playground/p/hE04QHIviwoLt7v6XptKFscJ?model=davinci)
